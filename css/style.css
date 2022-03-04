@@ -55,7 +55,7 @@ a:hover{
 }
 
 a:active{
-    color: green;
+    color: #f9a94b;
 }
 
 .pictures{
@@ -79,7 +79,7 @@ p{
     margin-bottom: 20px;
 }
 
-.fa-cheese, .fa-drumstick-bite{
+.fa-cheese, .fa-drumstick-bite, .fa-heart{
     color: #f9a94b;
     font-size: 1.5rem;
 }
