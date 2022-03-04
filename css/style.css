@@ -1,0 +1,64 @@
+
+body{
+    background: #f2f2f2;   
+}
+
+div{
+    font-family: 'Montserrat';
+}
+
+.page-title{
+    margin-top: 20px;
+    
+    color:#f9a94b ;
+    text-align:center;
+    font-family: marvin-round,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+
+}
+
+.container-nav{
+    margin-top: 30px;
+    width: 50%;
+}
+
+.navbar{
+    /* border: red solid 1px; */
+}
+
+
+
+.navbar-brand{
+    font-family: marvin-round,sans-serif;
+    color:grey;
+    font-size: 1.5rem;
+    /* border: green solid 1px; */
+
+}
+.col{
+    border: black solid 1px;
+    
+}
+
+.top-nav{
+    /* border: blue solid 2px; */
+    align-items: center;
+    /* margin-left: 25%; */
+}
+
+
+
+a:hover{
+    color: #f9a94b;
+}
+
+a:active{
+    color: #f9a94b;
+}
+
+.container-sm{
+    /* border: solid 2px blue; */
+}
+
