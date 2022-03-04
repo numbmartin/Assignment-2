@@ -38,7 +38,7 @@ div{
 
 }
 .col{
-    border: black solid 1px;
+    /* border: black solid 1px; */
     
 }
 
@@ -58,7 +58,29 @@ a:active{
     color: green;
 }
 
-.container-sm{
-    /* border: solid 2px blue; */
+.pictures{
+    border: solid 2px red;
+    margin-top: 20px;
+}
+
+.about-me{
+    margin-top: 10px;
+    color: grey;
+    
+}
+h2{
+    font-family: marvin-round,sans-serif;
+    color: #f9a94b;
+    text-align: left;
+}
+p{ 
+    margin-top: 20px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.fa-cheese, .fa-drumstick-bite{
+    color: #f9a94b;
+    font-size: 1.5rem;
 }
 
