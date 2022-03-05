@@ -144,6 +144,11 @@ p{
     padding:0;
 }
 
+.tempdisplaybig{
+    display: flex;
+    align-items: center;
+}
+
 
 
 
