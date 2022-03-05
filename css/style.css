@@ -140,6 +140,10 @@ p{
     border: red solid 2px;
 }
 
+.nopadding{
+    padding:0;
+}
+
 
 
 
