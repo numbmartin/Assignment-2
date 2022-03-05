@@ -92,11 +92,11 @@ p{
 }
 
 .col-lg-5{
-    /* border: green solid 2px; */
+    border: green solid 2px;
 }
 
 .col-lg-7{
-    /* border: yellow solid 2px; */
+    border: yellow solid 2px;
    
 }
 
@@ -104,12 +104,16 @@ p{
 .row-top{
     align-items: center;
     text-align: center;
-    /* border: red solid 1px; */
+    border: red solid 1px;
     max-height: 20%;
 }
 
+.row-bottom{
+    border: black solid 2px;
+}
+
 .col-md-3{
-    /* border: blue solid 1px; */
+    border: blue solid 1px;
     margin-top: 40px;
     text-align: center;
     color: gray;
