@@ -55,10 +55,10 @@ div{
 
 
 a:hover{
-    color: grey;
-    font-size: 1.55rem;
+    color:#f9a94b;
+    /* font-size: 1.55rem; */
     
-    transition: all .4s 0s ease-in-out;
+    transition: all .6s 0s ease-in-out;
 }
 
 a:active{
