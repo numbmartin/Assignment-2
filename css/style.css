@@ -56,6 +56,9 @@ div{
 
 a:hover{
     color: grey;
+    font-size: 1.55rem;
+    
+    transition: all .4s 0s ease-in-out;
 }
 
 a:active{
@@ -90,7 +93,8 @@ p{
 
 .info-panel{
     /* border: black solid 2px; */
-    max-height: fit-content;
+    
+    
 }
 
 .col-lg-5{
