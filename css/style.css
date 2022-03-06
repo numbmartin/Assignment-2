@@ -25,7 +25,8 @@ div{
 }
 
 .navbar{
-    border: red solid 1px;
+    /* border: red solid 1px; */
+    height: 100%;
     
 }
 
@@ -35,7 +36,8 @@ div{
     font-family: marvin-round,sans-serif;
     color:lightgrey;
     font-size: 1.5rem;
-    border: green solid 1px;
+    /* border: green solid 1px; */
+    text-align: center;
 
 }
 .col{
@@ -92,11 +94,11 @@ p{
 }
 
 .col-lg-5{
-    border: green solid 2px;
+    /* border: green solid 2px; */
 }
 
 .col-lg-7{
-    border: yellow solid 2px;
+    /* border: yellow solid 2px; */
    
 }
 
@@ -104,17 +106,17 @@ p{
 .row-top{
     align-items: center;
     text-align: center;
-    border: red solid 1px;
-    height:70%;
+    /* border: red solid 1px; */
+    height:75%;
 }
 
 .row-bottom{
-    border: black solid 2px;
-    height: 30%;
+    /* border: black solid 2px; */
+    height: 25%;
 }
 
 .col-md-3{
-    border: blue solid 1px;
+    /* border: blue solid 1px; */
     
     text-align: center;
     color: gray;
@@ -137,16 +139,16 @@ p{
 }
 
 .col-md-6{
-    border: red solid 2px;
+    /* border: red solid 2px; */
 }
 
 .nopadding{
     padding:0;
 }
 
-.tempdisplaybig{
-    display: flex;
-    align-items: center;
+.row-bottom .row{
+    height: 100%;
+    color: grey;
 }
 
 
