@@ -56,7 +56,7 @@ div{
 
 a:hover{
     color:#f9a94b;
-    font-size: 1.55rem;
+    /* font-size: 1.55rem; */
     
     transition: all .6s 0s ease-in-out;
 }
