@@ -87,7 +87,7 @@ p{
     /* padding-right: 30%; */
 }
 
-.fa-cheese, .fa-drumstick-bite, .fa-heart{
+.fa-cheese, .fa-drumstick-bite, .fa-heart, .fa-circle-xmark{
     color: #f9a94b;
     font-size: 1.5rem;
 }
@@ -156,9 +156,104 @@ p{
     color: grey;
 }
 
+.titleNewStyle{
+    margin-top: 50px;
+    
+    color:black;
+    text-align:left;
+    font-family: marvin-round,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
 
+}
 
+#bkgrndChange{
+    margin-top: 30px;
+    background-color: #f9a94b;
 
+}
 
+.clicked {
+    background-color: darkgray;
+}
 
+.modal-overlay{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.panel{
+  display: grid;
+  place-items: center;
+  position: relative;
+  border-radius: 30px;
+  background-color: #f9a94b;
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.15);
+  color: black;
+  min-width: 30vmin;
+  min-height: 30vmin;
+  padding: 1rem;
+
+}
+
+.panel_close_button{
+    position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.5em;
+  border-radius: 50%;
+  border: 2px solid var(--r-heading-color);
+  background: white;
+  color: var(--r-heading-color);
+  opacity: 1;
+
+}
+
+.modal__close-button button:hover,
+.modal__close-button:active,
+.modal__close-button:focus {
+  background: white;
+  border-color: var(--r-heading-color);
+}
+
+.modal-is-open{
+    opacity: 1;
+    z-index: 1;
+
+}
+
+.buttonFade{
+    opacity: 0;
+    z-index: -1;
+    transition: all 1.5s 0s ease-in-out;
+}
+
+#map{
+    height: 500px;
+}
+
+.mapSection{
+    display: grid;
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+
+.mapTitle{
+    margin-top: 50px;
+    text-align: center;
+}
 

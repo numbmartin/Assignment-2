@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Frameawesome -->
     <script src="https://kit.fontawesome.com/b8e44f9cfa.js" crossorigin="anonymous"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>RoRo Let's Go!</title>
+    <script src="js/js-assignment3.js" defer></script>
+    <script src="js/assignment3_jquery.js" defer></script>
+    
   </head>
   <body>
     <h1 class="page-title">RoRo Let's Go!
@@ -44,7 +48,10 @@
           <div class="col-lg-5 row align-items-center">
               <div>
                 <h2>Hello there</h2>
-                <p>My name is RoRo. I am a Pembroke Welsh Corgi. I came to Xinyi's family in 2019. And I have been living there since. I do not like walking. But I am a really good swimmer. I like chicken <i class="fa-solid fa-drumstick-bite"></i> and cheese <i class="fa-solid fa-cheese"></i>. Please send me love! <i class="fa-solid fa-heart"></i> </p>
+                <p class="intro">My name is RoRo. I am a Pembroke Welsh Corgi. I came to Xinyi's family in 2019. And I have been living there since. I do not like walking. But I am a really good swimmer. I like chicken <i class="fa-solid fa-drumstick-bite"></i> and cheese <i class="fa-solid fa-cheese"></i>. Please send me love! <i class="fa-solid fa-heart"></i> </p>
+                <p class="newPContent"></p>
+                <p class="jqNewContent">The message above will be different</p>
+                <button class="jqButton">Do not click me!</button>
     
               </div>
           </div>
@@ -75,7 +82,26 @@
             </div>
           </div>
           
+          
         </div>
+        <div>
+          <button class=" jsModalButton">Corgi Colors</button>
+        </div>
+        <div class="modal-overlay">
+          <div class="panel">
+            <div class="panelcontent newBkgrnd">
+              <button class="panel_close_button jsModalClose">
+                <i class="fa-solid fa-circle-xmark"></i>
+              </button>
+              <button class="changeBkgrnd">change color</button>
+              <p id="colorsOfCorgis"></p>
+            </div>
+          </div>
+          
+        </div>
+        
+
+
       </div>
     
 

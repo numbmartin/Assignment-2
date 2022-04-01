@@ -12,8 +12,21 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Frameawesome -->
     <script src="https://kit.fontawesome.com/b8e44f9cfa.js" crossorigin="anonymous"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>RoRo Let's Go!</title>
     <script src="js/js-assignment3.js" defer></script>
+    <script src="js/assignment3_jquery.js" defer></script>
+    <script src="js/leaflet.js" defer></script>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    
   </head>
   <body>
     <h1 class="page-title">RoRo Let's Go!
@@ -92,7 +105,12 @@
           
         </div>
       </div>
-
+    <div class="container-md mapSection">
+      <h2 class="mapTitle">Where I walk</h2>
+      <div id="map"></div>
+  
+    </div>
+    
     
 
     <!-- Optional JavaScript; choose one of the two! -->
